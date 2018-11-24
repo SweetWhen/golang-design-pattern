@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/senghoo/golang-design-pattern.svg?branch=master)](https://travis-ci.org/senghoo/golang-design-pattern)
 
-Go 语言设计模式的实例代码
+通过解读别人用GO写的设计模式来学习GO语言设计和设计模式，说白了就是学习在用GO写代码时怎么组织代码。
 
 ## 创建型模式
 
