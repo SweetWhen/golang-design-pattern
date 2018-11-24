@@ -3,11 +3,13 @@ package simplefactory
 import "fmt"
 
 //API is interface
+//这个API interface是我们工厂返回的对象类型
 type API interface {
 	Say(name string) string
 }
 
 //NewAPI return Api instance by type
+//这个就是工厂函数啦
 func NewAPI(t int) API {
 	if t == 1 {
 		return &hiAPI{}
@@ -17,6 +19,7 @@ func NewAPI(t int) API {
 	return nil
 }
 
+//下面是各种具体的类型，以及它们必须实现的Say方法
 //hiAPI is one of API implement
 type hiAPI struct{}
 
